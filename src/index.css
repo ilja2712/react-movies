@@ -14,5 +14,11 @@ nav {
 .content {
   min-height: calc(100vh - 70px - 64px);
   padding: 0 1rem;
+  text-align: center;
+}
+
+.card {
+  display: inline-block;
+  margin: 10px;
 }
     

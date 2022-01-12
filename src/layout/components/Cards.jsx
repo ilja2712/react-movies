@@ -1,5 +1,6 @@
 import React from "react"
 import { Card } from "./Card"
+import { Preloader } from "./Preloader"
 
 class Cards extends React.Component {
     constructor(props) {
@@ -36,7 +37,7 @@ class Cards extends React.Component {
         if (error) {
             return <div>Ошибка: {error.message}</div>;
         } else if (!isLoaded) {
-            return <div>Загрузка...</div>;
+            return <Preloader />;
         } else {
             return (<div>
                     {films.map(film => (
