@@ -13,12 +13,22 @@ nav {
 
 .content {
   min-height: calc(100vh - 70px - 64px);
-  padding: 0 1rem;
-  text-align: center;
+  padding: 1.5rem 1.5rem;
 }
 
-.card {
-  display: inline-block;
-  margin: 10px;
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1rem;
+}
+
+.search-btn {
+  position: absolute;
+  top: 0;
+  right: 0.5rem;
+}
+
+.group1 {
+  margin: 5rem;
 }
     
