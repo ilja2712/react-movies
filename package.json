@@ -2,6 +2,7 @@
   "name": "react-movies",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://ilja2712.github.io/react-movies",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",
